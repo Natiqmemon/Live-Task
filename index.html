@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css class 13</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1><b>We bulit harbour because 
+        <br>
+        we,ve been in your shoes!</b></h1>
+  <p>The process to set things up can feel opaque and confusing, that's
+     <br>
+     why we cut out the middlemen and went straight to the source</p>
+  <main>
+  <section class="section1">
+  <div class="card1">
+    <div class="card-header">
+    <h2 id="H1"> THREE WEEKS<h2 id="H2"> THREE WEEKS<h2 id="H4"> THREE WEEKS</h2></h2></h2>
+    </div>
+     <img src="Images/image (2).png" alt="" id="one">
+    <h2 id="big">Fast setup, from <h2 id="hh1">anywhere.</h2></h2>
+    <pre id="parah"><h6>        Get tour entity in 3 weeks . kick up your 
+heels and let us do the grunt work</h6></pre>
+    </div>
+  <div class="card2"><img src="Images/glass (1).png" alt="" id="two">
+  <h2 id="small">Dedicated Support</h2>
+  <pre><h6 id="vBig"> Since we work directly with freezones we can
+      accurately answer all of your questions</h6></pre>
+  </div>
+   </section>
+    <section class="section2">
+      <div class="card3"><img src="Images/image (3).png" alt="" id="three">
+      <pre><h2 id="Sml">Get a bank account
+  right after </h2></pre>
+      <pre><h6 id="hh2">Makes transfers, deposits and issues cards</h6></pre>
+    </div>
+       <div class="card4"><img src="Images/image (4).png" alt="" id="for">
+        <pre id="hh4"><h2>Vetted vendors for the
+  other things you'll need!</h2></pre>
+    <pre id="hh7"> <h6>      From health insurance to recommendations for 
+      place, car rental or tax advice . we got you!</h6></pre>
+      </div>
+      </section>
+    </div>
+       <!-- ...existing code... -->
+   <button class="toggle-btn" onclick="toggleMode()">🌙 Dark Mode</button>
+  <script>
+    function toggleMode() {
+      const body = document.body;
+      const button = document.querySelector(".toggle-btn");
+
+      body.classList.toggle("dark-mode");
+
+      if (body.classList.contains("dark-mode")) {
+        button.textContent = "☀️ Light Mode";
+      } else {
+        button.textContent = "🌙 Dark Mode";
+      }
+    }
+  </script>
+<!-- ...existing code... -->
+ </main>
+ <footer>
+  <h3 id="hh8">MADE BY NATIQ MEMON</h3>
+ </footer>
+</body>
+</html>

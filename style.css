@@ -1,0 +1,193 @@
+body{
+    text-align: center;
+    background-color: azure;
+}
+.section1 {
+    display: flex;
+    justify-content: space-around;
+}
+.card1 {
+   width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: #3bb273;
+    margin-left: 318px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.card2 {
+    width: 280px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: rgb(238, 255, 0);
+    margin-top: 50px;
+    margin-right: 318px;
+     border-radius: 25px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card3 {
+    width: 280px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: rgb(238, 255, 0);
+    margin-top: 10px;
+     margin-left: 318px;
+     border-radius: 25px;
+}
+
+.card4 {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: #3bb273;
+    margin-top: 10px;
+      margin-right: 318px;
+     border-radius: 25px;
+}
+
+#one {
+    width: 400px;   /* Set your desired width */
+    height: 170px;  /* Set your desired height */
+    object-fit: cover; /* Optional: keeps aspect ratio and fills the box */
+    margin-left: 15px;
+    margin-top: -40px;
+   }
+
+#two{
+     width: 150px;   /* Set your desired width */
+    height: 140px;  /* Set your desired height */
+    object-fit: cover; /* Optional: keeps aspect ratio and fills the box */  
+    margin-top: 110px;
+    margin-right:20px ;
+}
+
+#three{
+   width: 130px;   /* Set your desired width */
+    height: 130px;  /* Set your desired height */
+    object-fit: cover; /* Optional: keeps aspect ratio and fills the box */ 
+    margin-top: 10px; 
+    rotate: 30deg;
+    margin-left: 10px;
+    }
+
+    #for{
+   width: 340px;   /* Set your desired width */
+    height: 140px;  /* Set your desired height */
+    object-fit: cover; /* Optional: keeps aspect ratio and fills the box */ 
+    margin-top:115px;
+    margin-right: 10px; 
+ }
+
+    #H1{
+        color: yellow;
+        margin-right: 200px;
+        background-color: black;
+        margin-top: 25px;
+       }
+
+    #H2 {
+  color: yellow;
+  margin-top: -10px; /* replaces invalid padding */
+  background-color: black;
+  text-align: center; /* center text inside the h2 */
+  display: inline-flex;
+}
+
+    #H4{
+        color: yellow;
+        margin-left: 210px;
+        margin-top: -87px;
+         background-color: black;
+    }
+     
+#big{
+    margin-right: 170px;
+    margin-top: -80px;
+    font-family: arial;
+}
+#hh1{
+     margin-right: 240px;
+    margin-top: -20px;
+    font-family: arial;
+}
+  
+h6{
+    margin-right: 175px;
+    margin-top: -10px;
+    font-family: arial, sans-serif;
+}
+
+#small{
+    margin-top: -240px;
+    font-family: arial;
+}
+
+#vBig{
+      margin-top: -10px;
+    font-family: arial;
+    margin-left: 20px;
+}
+
+#Sml{
+     margin-left: 5px;
+    margin-top: -5px;
+    font-family: arial;
+}
+
+#hh2{
+ font-family: arial;  
+ margin-top: -10px;  
+ margin-left: 30px;
+}
+
+#hh4{
+      margin-top: -250px;
+    font-family: arial;
+    margin-right: 120px;
+}
+
+#hh7{
+font-family: arial;  
+ margin-top: -25px;  
+ margin-right: 45px;
+}
+
+#hh8{
+    font-style: inherit;
+    font-family: arial;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.toggle-btn {
+    align-items: end;
+    margin-top: 560px;
+}
+.dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+
+    .toggle-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    .dark-mode .toggle-btn {
+      background: #fff;
+      color: #000;
+    }
