@@ -1,6 +1,7 @@
 body{
     text-align: center;
     background-color: azure;
+    height: 750px;
 }
 .section1 {
     display: flex;
@@ -157,37 +158,3 @@ font-family: arial;
  margin-top: -25px;  
  margin-right: 45px;
 }
-
-#hh8{
-    font-style: inherit;
-    font-family: arial;
-    background-color: yellow;
-    padding: 10px;
-}
-
-.toggle-btn {
-    align-items: end;
-    margin-top: 560px;
-}
-.dark-mode {
-      background-color: #121212;
-      color: white;
-    }
-
-    .toggle-btn {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background: #000;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      cursor: pointer;
-      font-size: 16px;
-      border-radius: 5px;
-    }
-
-    .dark-mode .toggle-btn {
-      background: #fff;
-      color: #000;
-    }
